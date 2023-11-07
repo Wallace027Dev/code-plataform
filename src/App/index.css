@@ -1,6 +1,27 @@
-html {
-	font-family: Rubik, "Open Sans", sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;600;700&display=swap');
+
+* {
 	padding: 0;
 	margin: 0;
 	box-sizing: border-box;
+	font-size: 62.5%;
+}
+
+html {
+	background-color: white;
+	font-family: 'Rubik', sans-serif;
+	color: black;
+}
+
+main {
+	padding: 0 3rem;
+
+	@media screen and (min-width: 1024px) {
+		padding: 0 45rem;
+	}
+}
+
+:root {
+	--light-gray: #f7f9fa;
+	--yellow:#FFEE55;
 }
