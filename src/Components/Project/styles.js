@@ -15,7 +15,14 @@ export const Container = styled.div`
 		font-size: 1.6rem;
 	}
 
+	img {
+		width: 10rem;
+		height: 12rem;
+		margin-bottom: 1.6rem;
+	}
+
 	&:hover {
 		background-color: #ffee55;
+		cursor: pointer;
 	}
 `;
