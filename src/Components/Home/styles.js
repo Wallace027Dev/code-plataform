@@ -32,8 +32,4 @@ export const Container = styled.main`
 			gap: 2rem;
 		}
 	}
-
-	@media screen and (min-width: 1024px) {
-		text-align: left;
-	}
 `;

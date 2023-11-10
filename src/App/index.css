@@ -15,8 +15,10 @@ html {
 
 main {
 	padding: 0 3rem;
+}
 
-	@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1024px) {
+	main {
 		padding: 0 45rem;
 	}
 }
