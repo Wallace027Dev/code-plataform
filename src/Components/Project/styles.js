@@ -11,6 +11,11 @@ export const Container = styled.div`
 	flex-direction: column;
 	margin: 2rem;
 
+	a {
+		text-decoration: none;
+		color: black;
+	}
+
 	p {
 		font-size: 1.6rem;
 	}

@@ -28,6 +28,7 @@ export const Container = styled.main`
 
 		.project-wrap {
 			display: flex;
+			justify-content: center;
 			flex-wrap: wrap;
 			gap: 2rem;
 		}

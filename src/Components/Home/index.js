@@ -24,62 +24,77 @@ export default function Home() {
 		{
 			title: "Bloco de Notas",
 			imageSrc: blocoDeNotas,
+			link: "#",
 		},
 		{
 			title: "Calculadora",
 			imageSrc: calculadora,
+			link: "/calculadora",
 		},
 		{
 			title: "Calculador de IMC",
 			imageSrc: calculadorIMC,
+			link: "#",
 		},
 		{
 			title: "Calendaria",
 			imageSrc: calendario,
+			link: "#",
 		},
 		{
 			title: "Campo Minado",
 			imageSrc: campoMinado,
+			link: "#",
 		},
 		{
 			title: "Canvas",
 			imageSrc: canvas,
+			link: "#",
 		},
 		{
 			title: "ChatBox",
 			imageSrc: chatBox,
+			link: "#",
 		},
 		{
 			title: "Contador",
 			imageSrc: contador,
+			link: "#",
 		},
 		{
 			title: "Cotação de Moedas",
 			imageSrc: cotacaoDeMoedas,
+			link: "#",
 		},
 		{
 			title: "Gerador de Senhas",
 			imageSrc: geradorDeSenhas,
+			link: "#",
 		},
 		{
 			title: "Jarvis",
 			imageSrc: jarvis,
+			link: "#",
 		},
 		{
 			title: "Jo Ken Po",
 			imageSrc: jokenpo,
+			link: "#",
 		},
 		{
 			title: "Pesquisador",
 			imageSrc: pesquisador,
+			link: "#",
 		},
 		{
 			title: "Temporizador",
 			imageSrc: temporizadorCronometro,
+			link: "#",
 		},
 		{
 			title: "Tradutor",
 			imageSrc: tradutor,
+			link: "#",
 		},
 	];
 
@@ -98,6 +113,7 @@ export default function Home() {
 								key={index}
 								title={project.title}
 								imageSrc={project.imageSrc}
+								link={project.link}
 							/>
 						))}
 					</div>
