@@ -37,9 +37,9 @@ export default function Home() {
 			link: "/imc-calculator",
 		},
 		{
-			title: "Calendaria",
+			title: "Calendario",
 			imageSrc: calendario,
-			link: "#",
+			link: "/calendar",
 		},
 		{
 			title: "Campo Minado",
