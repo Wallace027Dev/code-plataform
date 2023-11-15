@@ -24,7 +24,7 @@ export default function Home() {
 		{
 			title: "Bloco de Notas",
 			imageSrc: blocoDeNotas,
-			link: "#",
+			link: "/notepad",
 		},
 		{
 			title: "Calculadora",
@@ -34,7 +34,7 @@ export default function Home() {
 		{
 			title: "Calculador de IMC",
 			imageSrc: calculadorIMC,
-			link: "#",
+			link: "/imc-calculator",
 		},
 		{
 			title: "Calendaria",
